@@ -9,7 +9,15 @@ An isogeometric boundary element method (IGABEM) implementation for the analysis
 
 ## Examples
 
-Coming soon.
+| Case | Description |
+|------|-------------|
+| `mainPlate.m` | 2D plane strain plate under uniaxial tension |
+| `mainCylinder.m` | 2D thick-walled cylinder under internal pressure |
+| `mainRVE2D.m` | 2D Representative Volume Element (RVE) with elliptical inclusion |
+| `mainCube3D.m` | 3D cube under uniaxial tension |
+| `mainRVE3D.m` | 3D RVE with spherical inclusion |
+
+Each case compares IGABEM results against **analytical solutions** or **COMSOL results** for validation.
 
 ## Citation
 
