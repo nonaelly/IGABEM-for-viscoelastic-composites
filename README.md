@@ -6,16 +6,17 @@ An isogeometric boundary element method (IGABEM) implementation for the analysis
 
 - Supports viscoelastic composites with a generalized Maxwell matrix and elastic inclusions
 - Based on the isogeometric boundary element method using the Radial Integration Method (RIM)
-
+- Periodic boundary conditions for RVE homogenization
+  
 ## Examples
 
-| Case | Description |
-|------|-------------|
-| `mainPlate.m` | 2D plane strain plate under uniaxial tension |
-| `mainCylinder.m` | 2D thick-walled cylinder under internal pressure |
-| `mainRVEEllipse.m` | 2D Representative Volume Element (RVE) with elliptical inclusion |
-| `mainCuboid.m` | 3D cube under uniaxial tension |
-| `mainRVESphere.m` | 3D RVE with spherical inclusion |
+| Case             | Description                                             | Illustration                                      |
+|------------------|---------------------------------------------------------|---------------------------------------------------|
+| `mainPlate.m`    | 2D plane strain plate under uniaxial tension            | <div align="center"><img src="pics/plate.jpg" height="200"/></div> |
+| `mainCylinder.m` | 2D thick-walled cylinder under internal pressure        | <div align="center"><img src="pics/cylinder.jpg" height="200"/></div> |
+| `mainRVEEllipse.m` | 2D RVE with elliptical inclusion                       | <div align="center"><img src="pics/rve2d.jpg" height="150"/></div> |
+| `mainCuboid.m`   | 3D cube under uniaxial tension                          | <div align="center"><img src="pics/cuboid.jpg" height="200"/></div> |
+| `mainRVESphere.m`| 3D RVE with spherical inclusion                         | <div align="center"><img src="pics/rve3d.jpg" height="150"/></div> |
 
 Each case compares IGABEM results against **analytical solutions** or **COMSOL results** for validation.
 
