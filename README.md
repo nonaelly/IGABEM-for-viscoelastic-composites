@@ -12,8 +12,8 @@ An isogeometric boundary element method (IGABEM) implementation for the analysis
 
 | Case             | Description                                             | Illustration                                      |
 |------------------|---------------------------------------------------------|---------------------------------------------------|
-| `mainPlate.m`    | 2D plane strain plate under uniaxial tension            | <div align="center"><img src="pics/plate.jpg" height="200"/></div> |
-| `mainCylinder.m` | 2D thick-walled cylinder under internal pressure        | <div align="center"><img src="pics/cylinder.jpg" height="200"/></div> |
+| `mainPlate.m`    | 2D plane strain plate under uniaxial tension            | <div align="center"><img src="pics/plate.jpg" width="400"/></div> |
+| `mainCylinder.m` | 2D thick-walled cylinder under internal pressure        | <div align="center"><img src="pics/cylinder.jpg" width="400"/></div> |
 | `mainRVEEllipse.m` | 2D RVE with elliptical inclusion                       | <div align="center"><img src="pics/rve2d.jpg" height="200"/></div> |
 | `mainCuboid.m`   | 3D cube under uniaxial tension                          | <div align="center"><img src="pics/cuboid.jpg" height="200"/></div> |
 | `mainRVESphere.m`| 3D RVE with spherical inclusion                         | <div align="center"><img src="pics/rve3d.jpg" height="200"/></div> |
